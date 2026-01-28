@@ -220,12 +220,11 @@ body {
 }
 
 .hero-image {
-    width: 100%;
-    border-radius: 40px; /* iPhone corner radius approximation */
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-    border: 8px solid #2b2b2b;
+    width: 150%;
     position: relative;
+    rotate: 15deg;
     z-index: 10;
+    margin-left: -75px;
     transition: transform 0.3s ease;
     animation: float 6s ease-in-out infinite;
 }
